@@ -1,0 +1,11 @@
+Impresión inicial:
+A primera vista se ve una variante del problema del viajante, se debe tener en cuenta el orden de los viajes para luego chequear que el monto acumulado no vaya superando los limites superiores e inferiores.
+
+Ideas:
+Lo que intentaré es ir llevando la suma acumulada e ir comparando el nuevo monto procurando no tener menos de 0 ni mas del máximo.
+
+Comentarios de cambios en el código:
+Debido al cambio de software que hice, comence haciendo fuerza bruta, yendo a la primera sucursal en orden y comparando si puede ir segun su monto acumulado y pasando al siguiente.
+
+Comentarios finales:
+Al principio lo encaré con el software glpk y tuve algunas complicaciones cuando queria obtener la solucion porque tardaba demasiado y no llegaba a una solucion en concreto. Por lo que accedi a buscar una solucion con otro lenguaje.
