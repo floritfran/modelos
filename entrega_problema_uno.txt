@@ -6,6 +6,7 @@ Lo que intentaré es ir llevando la suma acumulada e ir comparando el nuevo mont
 
 Comentarios de cambios en el código:
 Debido al cambio de software que hice, comence haciendo fuerza bruta, yendo a la primera sucursal en orden y comparando si puede ir segun su monto acumulado y pasando al siguiente.
+En esta mejora, lo que intente hacer es proponer un camino empezando desde cada uno de las sucursales y buscar la sucursal mas cercana a esa ultima sucursal que cumpla las restricciones del monto.
 
 Comentarios finales:
 Al principio lo encaré con el software glpk y tuve algunas complicaciones cuando queria obtener la solucion porque tardaba demasiado y no llegaba a una solucion en concreto. Por lo que accedi a buscar una solucion con otro lenguaje.
